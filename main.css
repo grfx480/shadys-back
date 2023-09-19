@@ -1,0 +1,92 @@
+:root {
+    box-sizing: border-box; 
+}
+
+::before, 
+*, 
+::after {
+    box-sizing: inherit; 
+    margin: 0; 
+    padding: 0; 
+
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+}
+
+a {
+    text-decoration: none; 
+    color: #000; 
+}
+
+body {
+    font-family: 'Raleway', sans-serif; 
+    background-color: #CECECE; 
+}
+
+/* COMMON ELEMENTS */
+
+.brand {
+    font-size: 98px; 
+    font-family: 'Wire One'; 
+
+    text-align: center; 
+}
+
+.subtitle {
+    margin: -15px 0 0 50vw; 
+    color: #fff; 
+}
+
+.link-container {
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center;
+}
+
+.button-link {
+    display: inline-block; 
+    width: 280px; 
+    padding: 10px 0; 
+    
+    color: #fff; 
+    font-size: 39px; 
+    font-family: 'Wire One', sans-serif; 
+    background-color: #90A8D3; 
+
+    border-radius: 100vw; 
+    box-shadow: 0 0 -6px #000; 
+    
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+
+.footer {
+    margin: 24px 0 15px; 
+
+    font-size: 14px;     
+    text-align: center; 
+    
+}
+
+/* HOMEPAGE */
+
+.hero {
+    height: 600px; 
+    width: 100vw; 
+    margin-left: 15px; 
+    
+    background-image: URL('Images/IndexImg.png'); 
+
+    border-bottom-left-radius: 100vh;
+    border-top-left-radius: 100vh;
+}
+
+.tagline {
+    margin: 15px 50px; 
+    
+    font-size: 35px; 
+    text-align: center; 
+}
